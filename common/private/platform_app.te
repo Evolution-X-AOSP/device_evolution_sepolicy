@@ -17,3 +17,7 @@ allow platform_app recovery_service:service_manager find;
 
 # Allow theme_prop to be read by system ui
 get_prop(platform_app, theme_prop)
+
+# Allow CPUInfo access to thermal
+allow platform_app sysfs_thermal:dir search;
+allow platform_app sysfs_thermal:file r_file_perms;
