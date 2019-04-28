@@ -1,2 +1,0 @@
-# Allow system server battery suply rw access
-allow system_server sysfs_battery_supply:file rw_file_perms;
