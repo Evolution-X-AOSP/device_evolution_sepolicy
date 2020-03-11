@@ -1,6 +1,6 @@
 #
 # This policy configuration will be used by all products that
-# inherit from Lineage
+# inherit from Evolution X
 #
 
 ifeq ($(TARGET_COPY_OUT_VENDOR), vendor)
@@ -17,7 +17,8 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
 
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/custom/sepolicy/common/dynamic
+    device/custom/sepolicy/common/dynamic \
+    device/custom/sepolicy/common/system
 else
 BOARD_SEPOLICY_DIRS += \
     device/custom/sepolicy/common/dynamic \
