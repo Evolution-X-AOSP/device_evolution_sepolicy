@@ -44,3 +44,6 @@ allow platform_app vendor_sysfs_dc_dim:file rw_file_perms;
 # allow systemui to set boot animation colors
 get_prop(platform_app, bootanim_system_prop)
 set_prop(platform_app, bootanim_system_prop)
+
+# Allow Touch HAL service to be found
+hal_client_domain(platform_app, hal_lineage_touch)
