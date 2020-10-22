@@ -26,7 +26,7 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/evolution/sepolicy/common/dynamic \
     device/evolution/sepolicy/common/system
 else
-BOARD_SEPOLICY_DIRS += \
+BOARD_VENDOR_SEPOLICY_DIRS += \
     device/evolution/sepolicy/common/dynamic \
     device/evolution/sepolicy/common/vendor
 endif
