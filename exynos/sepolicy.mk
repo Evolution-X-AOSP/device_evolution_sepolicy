@@ -17,7 +17,7 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/evolution/sepolicy/exynos/dynamic \
     device/evolution/sepolicy/exynos/system
 else
-BOARD_SEPOLICY_DIRS += \
+BOARD_VENDOR_SEPOLICY_DIRS += \
     device/evolution/sepolicy/exynos/dynamic \
     device/evolution/sepolicy/exynos/vendor
 endif
