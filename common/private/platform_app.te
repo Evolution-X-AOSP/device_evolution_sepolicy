@@ -37,3 +37,6 @@ r_dir_file(platform_app, mnt_pass_through_file)
 # Allow Launcher3 to access zram
 allow platform_app sysfs_zram:dir search;
 allow platform_app sysfs_zram:file r_file_perms;
+
+# DC Dimming
+allow platform_app vendor_sysfs_dc_dim:file rw_file_perms;

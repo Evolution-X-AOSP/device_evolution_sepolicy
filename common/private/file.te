@@ -6,4 +6,4 @@ type sysfs_perdev_minors, fs_type, sysfs_type;
 type pocket_judge_sysfs, fs_type, sysfs_type;
 
 # DC Dimming
-type sysfs_dc_dim, fs_type, sysfs_type;
+type vendor_sysfs_dc_dim, fs_type, sysfs_type;
