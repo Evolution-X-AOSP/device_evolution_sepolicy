@@ -18,4 +18,4 @@ set_prop(system_app, theme_prop)
 allow system_app selinuxfs:file r_file_perms;
 
 # Allow Settings to set legacy wfd videomode prop
-set_prop(system_app, wfd_legacy_video_mode_prop);
+set_prop(system_app, exported_system_prop);
