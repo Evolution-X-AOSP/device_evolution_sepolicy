@@ -15,14 +15,14 @@ BOARD_SEPOLICY_M4DEFS += board_excludes_fuseblk_sepolicy=true
 endif
 endif
 
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
     device/evolution/sepolicy/common/public
 
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/evolution/sepolicy/common/private
 
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/evolution/sepolicy/common/dynamic \
     device/evolution/sepolicy/common/system
 else
