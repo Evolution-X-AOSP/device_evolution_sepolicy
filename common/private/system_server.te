@@ -19,3 +19,6 @@ hal_client_domain(system_server, hal_lineage_powershare)
 
 # Long screenshot
 add_service(system_server, longshot_service)
+
+# Let system server find auxiliary camera properties
+get_prop(system_server, vendor_persist_camera_prop)
