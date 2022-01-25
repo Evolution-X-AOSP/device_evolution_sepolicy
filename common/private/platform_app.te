@@ -7,12 +7,6 @@ allow platform_app system_prop:property_service set;
 # Allow FastCharge HAL service to be found
 hal_client_domain(platform_app, hal_lineage_fastcharge)
 
-# Allow FOD HAL service to be found
-hal_client_domain(platform_app, hal_lineage_fod)
-
-# Allow LiveDisplay HAL service to be found
-hal_client_domain(platform_app, hal_lineage_livedisplay)
-
 # Allow PowerShare HAL service to be found
 hal_client_domain(platform_app, hal_lineage_powershare)
 
