@@ -14,4 +14,4 @@
 /system/bin/backuptool_postinstall\.sh            u:object_r:otapreopt_chroot_exec:s0
 
 # Bash
-/system/xbin/bash          u:object_r:shell_exec:s0
+/(system_ext|system/system_ext)/bin/bash          u:object_r:shell_exec:s0
