@@ -13,6 +13,7 @@ add_service(system_server, app_lock_service);
 
 # Use HALs
 hal_client_domain(system_server, hal_lineage_fastcharge)
+hal_client_domain(system_server, hal_lineage_livedisplay)
 hal_client_domain(system_server, hal_lineage_touch)
 hal_client_domain(system_server, hal_lineage_trust)
 hal_client_domain(system_server, hal_lineage_powershare)
