@@ -1,19 +1,17 @@
-adbroot_service                           u:object_r:adbroot_service:s0
-lineageaudio                              u:object_r:lineage_audio_service:s0
+lineageglobalactions                      u:object_r:lineage_globalactions_service:s0
 lineagehardware                           u:object_r:lineage_hardware_service:s0
 lineagelivedisplay                        u:object_r:lineage_livedisplay_service:s0
-lineageperformance                        u:object_r:lineage_performance_service:s0
-lineagestyle                              u:object_r:lineage_style_service:s0
 lineagetrust                              u:object_r:lineage_trust_service:s0
-lineageweather                            u:object_r:lineage_weather_service:s0
 profile                                   u:object_r:lineage_profile_service:s0
-pocket                                    u:object_r:pocket_service:s0
 
-# Long screenshot
-longshot                                  u:object_r:longshot_service:s0
+# Pocket judge
+pocket                                    u:object_r:pocket_service:s0
 
 # App Lock
 app_lock                                  u:object_r:app_lock_service:s0
 
 # DC Dimming
-dc_dim_service		                  u:object_r:dc_dimming_service:s0
+dc_dim_service                            u:object_r:dc_dimming_service:s0
+
+# ADB Root
+adbroot_service                           u:object_r:adbroot_service:s0

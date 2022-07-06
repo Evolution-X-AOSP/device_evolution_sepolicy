@@ -1,6 +1,6 @@
 #
 # This policy configuration will be used by all exynos products
-# that inherit from PixelExperience
+# that inherit from Evolution X
 #
 
 ifeq ($(TARGET_COPY_OUT_VENDOR), vendor)
