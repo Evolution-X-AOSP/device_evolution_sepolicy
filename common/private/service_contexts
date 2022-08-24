@@ -6,6 +6,7 @@ profile                                   u:object_r:lineage_profile_service:s0
 
 # Pocket judge
 pocket                                    u:object_r:pocket_service:s0
+parallel                                  u:object_r:parallel_space_manager_service:s0
 
 # App Lock
 app_lock                                  u:object_r:app_lock_service:s0
