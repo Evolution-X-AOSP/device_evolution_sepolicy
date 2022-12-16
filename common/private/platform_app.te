@@ -47,3 +47,6 @@ set_prop(platform_app, bootanim_system_prop)
 
 # Allow Touch HAL service to be found
 hal_client_domain(platform_app, hal_lineage_touch)
+
+# Allow externalstorage access
+allow platform_app mnt_pass_through_file:dir { create_dir_perms mounton };
