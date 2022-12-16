@@ -27,3 +27,6 @@ get_prop(platform_app, theme_prop)
 # Allow CPUInfo access to thermal
 allow platform_app sysfs_thermal:dir search;
 allow platform_app sysfs_thermal:file r_file_perms;
+
+# Allow externalstorage access
+allow platform_app mnt_pass_through_file:dir { create_dir_perms mounton };
