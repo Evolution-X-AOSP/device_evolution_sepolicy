@@ -33,3 +33,7 @@ allow platform_app mnt_pass_through_file:dir { create_dir_perms mounton };
 
 # Allow bypassing the FUSE layer
 r_dir_file(platform_app, mnt_pass_through_file)
+
+# Allow Launcher3 to access zram
+allow platform_app sysfs_zram:dir search;
+allow platform_app sysfs_zram:file r_file_perms;
