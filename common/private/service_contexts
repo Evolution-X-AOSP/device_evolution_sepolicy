@@ -6,7 +6,6 @@ profile                                   u:object_r:lineage_profile_service:s0
 
 # Pocket judge
 pocket                                    u:object_r:pocket_service:s0
-parallel                                  u:object_r:parallel_space_manager_service:s0
 
 # App Lock
 app_lock                                  u:object_r:app_lock_service:s0
@@ -19,3 +18,6 @@ adbroot_service                           u:object_r:adbroot_service:s0
 
 # Linearmotor Vibrator
 linearmotor                               u:object_r:linearmotor_vibrator_service:s0
+
+# Parallel space
+parallel                                  u:object_r:parallel_space_manager_service:s0

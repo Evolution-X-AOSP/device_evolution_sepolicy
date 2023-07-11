@@ -28,3 +28,6 @@ get_prop(system_server, vendor_persist_camera_prop)
 
 # Linearmotor Vibrator
 add_service(system_server, linearmotor_vibrator_service);
+
+# Parallel Space
+add_service(system_server, parallel_space_manager_service);
