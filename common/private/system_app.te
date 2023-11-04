@@ -14,6 +14,9 @@ set_prop(system_app, theme_prop)
 # Read selinux status
 allow system_app selinuxfs:file r_file_perms;
 
+# Allow Settings to read default navbar prop
+get_prop(system_app, qemu_hw_prop)
+
 # Allow Settings to set legacy wfd videomode prop
 set_prop(system_app, exported_system_prop);
 
