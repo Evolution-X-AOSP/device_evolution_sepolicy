@@ -21,9 +21,6 @@ ro.minui.default_touch_rotation        u:object_r:recovery_config_prop:s0
 # Recovery update
 persist.vendor.recovery_update         u:object_r:recovery_update_prop:s0
 
-# WiFi
-wifi.interface.                        u:object_r:wifi_hal_prop:s0 prefix string
-
 # Wi-Fi Display
 media.wfd.                             u:object_r:media_wfd_prop:s0
 persist.wfd.legacy.video.mode          u:object_r:exported_system_prop:s0
